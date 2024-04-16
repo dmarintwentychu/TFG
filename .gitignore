@@ -1,3 +1,6 @@
-/Code/Image_Restoration/logs/
-/Code/Image_Restoration/Checkpoints/
-/Code/Image_Restoration/Datasets/
+/Code/ImageRestoration/logs/
+/Code/ImageRestoration/Checkpoints/
+/Code/ImageRestoration/Datasets/
+/Code/ImageUpscaling/EDSR/Cat_HR/
+/Code/ImageUpscaling/EDSR/Cat_LR/
+/Code/PetImages/
