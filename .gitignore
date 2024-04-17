@@ -4,5 +4,5 @@
 /Code/Tests/ImageUpscaling/EDSR/Cat_HR/
 /Code/Tests/ImageUpscaling/EDSR/Cat_LR/
 /Code/Tests/PetImages/
-/Code/TFGCode/DIV2K_train_HR/
-/Code/TFGCode/DIV2K_valid_HR/
+/Code/TFGCode/Dataset/DIV2K_train_HR/
+/Code/TFGCode/Dataset/DIV2K_valid_HR/
