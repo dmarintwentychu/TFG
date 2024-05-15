@@ -1,0 +1,16 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'report.blg'
+[113] biber-MSWIN64:340> INFO - === 
+[158] Biber.pm:420> INFO - Reading 'report.bcf'
+[267] Biber.pm:994> INFO - Found 6 citekeys in bib section 0
+[279] Biber.pm:4463> INFO - Processing section 0
+[292] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
+[413] bibtex.pm:1713> INFO - LaTeX decoding ...
+[446] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[509] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[510] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[510] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[519] bbl.pm:676> INFO - Writing 'report.bbl' with encoding 'UTF-8'
+[524] bbl.pm:779> INFO - Output to report.bbl
+[534] Biber.pm:131> WARN - I didn't find a database entry for 'mcculloch1943logical' (section 0)
+[534] Biber.pm:133> INFO - WARNINGS: 1

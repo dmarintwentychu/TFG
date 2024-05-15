@@ -1,0 +1,69 @@
+\chapter{Introducción}
+\label{ch:introduccion}
+
+\quad La reconstrucción y escalado de imágenes son áreas fundamentales en el procesamiento de imágenes digitales y en visión por computadora. Estas técnicas han sido muy útiles en campos como la medicina, la astronomía y la seguridad  entre otros\cite{medicalrestore2,medicalrestore1,astronomyrestore1,securityrestore1}.
+
+Lo que tienen en común estos tres campos es que, ya sean imágenes de objetos alejados a millones de kilómetros, a unos cuantos metros o incluso a escasos centímetros, es probable que las imágenes estén deterioradas. El deterioro de una imagen puede mostrarse de distintas formas como, desenfoque de movimiento, ruido o un simple error en la fuente donde se ha tomado la imagen\cite{OWLNet}.
+
+Es importante disponer de herramientas que puedan reconstruir este tipo de imágenes, ya que, por ejemplo, en medicina podría ser decisivo para detectar posibles enfermedades. Por ello, he desarrollado este \gls{pfg} para explorar diferentes técnicas de reconstrucción y escalado de imágenes utilizando redes de neuronas.
+
+
+
+%La introducción a un \gls{pfg} o a un \gls{pfm} es el punto de entrada a todo el trabajo realizado y es considerada la más importante tras el resumen, donde se resume el trabajo entero. Aquí hay que dejar claro \textbf{qué} trabajo se ha realizado y el \textbf{porqué} de su importancia. Se deben generar expectativas. Un gancho típico en los trabajos suele ser el de aportar un dato relevante o controvertido para discutir sobre él o plantear una pregunta relevante para el contexto en el que se está trabajando.
+
+%Dentro del capítulo, tras introducir el trabajo realizado, se suelen incluir las siguientes secciones para establecer bien su alcance y limitaciones: \textbf{motivación}, \textbf{objetivos}, \textbf{suposiciones/limitaciones} y, a veces, \textbf{estructura de la memoria}. Ni que decir tiene que esta estructura planteada, tanto del capítulo como de la memoria en si es únicamente un ejemplo o propuesta. Cada proyecto es único y a veces es más cómodo escribirlo de otro modo.
+
+\section{Objetivos}
+
+\quad El objetivo principal de este \gls{pfg} es diseñar y desarrollar modelos de redes neuronales con la finalidad de reconstruir y escalar imágenes. Además de este objetivo, se han establecido otros objetivos adicionales:
+
+\begin{itemize}
+	\item Estudiar el funcionamiento de cada red neuronal y aplicar los conocimientos adquiridos para mejorar la comprensión del tema.
+	\item Comparar diversas arquitecturas de redes neuronales y evaluar su tiempo de entrenamiento, con el propósito de identificar el modelo más rápido.
+	\item Investigar cómo distintas arquitecturas de redes neuronales pueden influir en la precisión y rendimiento de estos procesos.
+
+\end{itemize}
+%Una de las partes más importante y complicada. Se considera \textbf{la finalidad} del proyecto en cuestión a realizar y suele encajar dentro de una de las siguientes categorías:
+
+%\begin{itemize}
+   % \item \textbf{Contraste} o validación de una hipótesis. Suele usarse en \glspl{pfm}, no tanto en \glspl{pfg}.
+   % \item \textbf{Desarrollo} o diseño de algo (e.g.~Software, hardware, sistema, edificio). Suele ser el más común en las ingenierías.
+  %  \item \textbf{Estudio} de un tema que deduce o descubre nuevo conocimiento. Suele ser más común en las ramas de las ciencias puras y humanidades.
+%\end{itemize}
+
+%Sirve como primer indicador de la consecución del proyecto, ya que planteando objetivos podemos determinar en las conclusiones su grado de cumplimiento. Ahora bien, ¿cómo determinamos que un objetivo se ha cumplido? pues definiéndolo para que se pueda cumplir, es decir, intentando que sea:
+
+%\begin{itemize}
+%    \item \textbf{Acotado en el tiempo}, así es más fácil establecer un marco temporal para su realización y programar temporalmente las partes de las que se compone.
+%    \item \textbf{Medible}, para saber cómo de lejos estamos de llegar a un resultado aceptable.
+%    \item \textbf{Específico}, de manera que esté bien acotado y sea difícil embarcarse en tareas que no nos acerquen a su consecución.
+ %   \item \textbf{Alcanzable}, porque si no lo es, por mucha intención y esfuerzo que le pongamos no se va a terminar.
+ %   \item \textbf{Relevante}, porque si, en un \gls{pfg} para Ingeniería del Software, desarrollamos un producto mecánico para sexar pollos, pues por muy importante que sea, poco tiene que ver con lo que se ha estudiado durante todos estos años.
+%\end{itemize}
+
+%Regla mnemotécnica: \textit{AMEAR}.
+
+\section{Motivación}
+
+Se refiere a los factores que han hecho que el estudiante se decante por trabajar en éste tema.
+
+Lo suyo sería apoyarse en buscar motivaciones más allá de las expresiones tipo \enquote{ampliar mis conocimientos}. Algunas fuentes donde encontrarla son las revistas especializadas, periódicos, organismos de estandarización, \glspl{ong}, etcétera.
+
+\section{Justificación}
+
+En esta sección se deben explicar y argumentar las razones por las cuales se eligió el tema del proyecto, así como su importancia y relevancia. Algunos elementos clave que se pueden abordar en esta sección son:
+
+\begin{enumerate}
+    \item \textbf{Relevancia del tema}: ¿Existe alguna necesidad o problema específico que tu proyecto pueda abordar?
+    \item \textbf{Justificación teórica}: Mención sobre qué teorías, enfoques o modelos existentes en la literatura respalden la importancia de abordar este tema.
+    \item \textbf{Brecha en el conocimiento}: ¿Qué aspectos no se han explorado lo suficiente o no han sido abordados en estudios previos? ¿Cómo puede el proyecto contribuir a cerrar esa brecha en el conocimiento?
+    \item \textbf{Contribución práctica}: Aplicaciones del proyecto y cómo pueden beneficiar a la comunidad académica, profesional o a la sociedad en general.
+\end{enumerate}
+
+La sección no tiene por qué ser demasiado extensa, ni tiene por qué incluir (o limitarse) a los puntos anteriores, pero debe ser lo suficientemente clara y convincente para que los lectores comprendan por qué el proyecto es relevante y necesario.
+
+\section{Estructura de la memoria}
+
+Cómo se organiza y estructura el proyecto en su totalidad. Esta sección presenta un resumen de los diferentes capítulos que conforman la memoria, así como una \textbf{muy breve} descripción de su contenido y propósito.
+
+Proporciona al lector una visión general de la estructura y el flujo del trabajo, permitiéndole comprender la secuencia lógica de cómo se desarrolla el trabajo o investigación.

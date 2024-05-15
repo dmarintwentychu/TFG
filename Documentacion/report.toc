@@ -1,0 +1,45 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Objetivos}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Motivación}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Justificación}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Estructura de la memoria}{3}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Configuración de la memoria}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}¿Cómo empiezo a escribir la memoria?}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}¿Cómo estructurar la memoria?}{7}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Componentes de la plantilla}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Columnas}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Ecuaciones}{9}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Modo en párrafo}{9}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Ecuaciones en bloque}{10}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Elementos flotantes}{11}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Código fuente}{12}{subsection.3.3.1}%
+\contentsline {subsubsection}{Código dentro del propio párrafo}{12}{subsubsection*.5}%
+\contentsline {subsubsection}{Bloques de código}{12}{subsubsection*.6}%
+\contentsline {subsubsection}{Código directamente desde fichero}{14}{subsubsection*.7}%
+\contentsline {subsubsection}{Etiquetando bloques de código}{15}{subsubsection*.8}%
+\contentsline {subsection}{\numberline {3.3.2}Figuras}{16}{subsection.3.3.2}%
+\contentsline {subsubsection}{Subfiguras}{17}{subsubsection*.10}%
+\contentsline {subsection}{\numberline {3.3.3}Tablas}{18}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Enlaces de hipertexto}{19}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Fórmulas matemáticas}{19}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Glosario}{19}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}¿Cuándo y cómo especificar términos?}{19}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Definiendo los términos del glosario}{20}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.7}Notas}{23}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Referencias cruzadas}{23}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Referencias bibliográficas}{24}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1}¿Cómo creamos nuevas referencias?}{25}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2}¿De qué manera puedo citar las referencias?}{25}{subsection.3.9.2}%
+\contentsline {section}{\numberline {3.10}Referencias cruzadas}{26}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Referencias a recursos externos}{26}{section.3.11}%
+\contentsline {chapter}{\numberline {4}Licencia}{27}{chapter.4}%
+\contentsline {chapter}{\numberline {A}Escuelas y títulos}{28}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Escuelas}{28}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Titulaciones}{28}{section.Alph1.2}%
+\contentsline {subsection}{\numberline {A.2.1}E.T.S. de Ingeniería Agronómica, Alimentaria y de Biosistemas}{29}{subsection.Alph1.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}E.T.S. de Ingeniería y Diseño Industrial}{29}{subsection.Alph1.2.2}%
+\contentsline {subsection}{\numberline {A.2.3}E.T.S. de Ingeniería de Sistemas Informáticos}{30}{subsection.Alph1.2.3}%
+\contentsline {chapter}{\numberline {B}¿Cómo ampliar la plantilla?}{31}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {C}Lista de paquetes incluidos}{32}{appendix.Alph3}%
+\contentsfinish 

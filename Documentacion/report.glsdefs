@@ -1,0 +1,252 @@
+\glsdefs@newdocentry{arco-perdicion}%
+{%
+name={Arco de la Perdición},%
+sort={Arco de la Perdición},%
+type={main},%
+first={Arco de la Perdición},%
+firstplural={Arco de la Perdicións},%
+text={Arco de la Perdición},%
+plural={Arco de la Perdicións},%
+description={Arco único que posee poderes destructivos capaz de desatar grandes catástrofes y de traer desgracias a aquellos que se encuentren en su camino},%
+descriptionplural={Arco único que posee poderes destructivos capaz de desatar grandes catástrofes y de traer desgracias a aquellos que se encuentren en su camino},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{hacha-batalla}%
+{%
+name={hacha de batalla},%
+sort={hacha de batalla},%
+type={main},%
+first={hacha de batalla},%
+firstplural={hacha de batallas},%
+text={hacha de batalla},%
+plural={hacha de batallas},%
+description={Herramienta antigua utilizada en combate, caracterizada por su doble función de arma y herramienta},%
+descriptionplural={Herramienta antigua utilizada en combate, caracterizada por su doble función de arma y herramienta},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{python}%
+{%
+name={Python},%
+sort={Python},%
+type={main},%
+first={Python},%
+firstplural={Pythonacos},%
+text={Python},%
+plural={Pythonacos},%
+description={El mejor lenguaje de programación},%
+descriptionplural={El mejor lenguaje de programación},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ia}%
+{%
+name={\acronymfont {\glsentryshort {ia}}},%
+sort={IA},%
+type={acronym},%
+first={IA},%
+firstplural={IAs},%
+text={IA},%
+plural={IAs},%
+description={inteligencia artificial},%
+descriptionplural={inteligencia artificial},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={inteligencia artificial},%
+longplural={inteligencias artificiales},%
+short={IA},%
+shortplural={IAs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ong}%
+{%
+name={\acronymfont {\glsentryshort {ong}}},%
+sort={ONG},%
+type={acronym},%
+first={ONG},%
+firstplural={ONGs},%
+text={ONG},%
+plural={ONGs},%
+description={organización no gubernamental},%
+descriptionplural={organización no gubernamental},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={organización no gubernamental},%
+longplural={organizaciones no gubernamentales},%
+short={ONG},%
+shortplural={ONG},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{pfg}%
+{%
+name={\acronymfont {\glsentryshort {pfg}}},%
+sort={PFG},%
+type={acronym},%
+first={PFG},%
+firstplural={PFGs},%
+text={PFG},%
+plural={PFGs},%
+description={Proyecto a realizar al final de una titulación de Grado},%
+descriptionplural={Proyecto a realizar al final de una titulación de Grado},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Proyecto Fin de Grado},%
+longplural={Proyectos Fin de Grado},%
+short={PFG},%
+shortplural={PFGs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{pfm}%
+{%
+name={\acronymfont {\glsentryshort {pfm}}},%
+sort={PFM},%
+type={acronym},%
+first={PFM},%
+firstplural={PFMs},%
+text={PFM},%
+plural={PFMs},%
+description={Proyecto a realizar al final de una titulación de Máster},%
+descriptionplural={Proyecto a realizar al final de una titulación de Máster},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Proyecto Fin de Máster},%
+longplural={Proyectos Fin de Máster},%
+short={PFM},%
+shortplural={PFMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{rpg}%
+{%
+name={\acronymfont {\glsentryshort {rpg}}},%
+sort={RPG},%
+type={acronym},%
+first={RPG},%
+firstplural={RPGs},%
+text={RPG},%
+plural={RPGs},%
+description={Role-Playing Game. Juego de rol},%
+descriptionplural={Role-Playing Game. Juego de rol},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={\protect \textit  {Role-Playing Game}},%
+longplural={\protect \textit  {Role-Playing Game}s},%
+short={RPG},%
+shortplural={RPG},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{special}%
+{%
+name={\acronymfont {\glsentryshort {special}}},%
+sort={SPECIAL},%
+type={acronym},%
+first={SPECIAL},%
+firstplural={SPECIALs},%
+text={SPECIAL},%
+plural={SPECIALs},%
+description={S.P.E.C.I.A.L es la sigla usada para los atributos de Fuerza (\textbf {S}trenght), Percepción (\textbf {P}erception), Resistencia (\textbf {E}ndurance), Carisma, (\textbf {C}harisma), Inteligencia, (\textbf {I}ntelligence), Agilidad, (\textbf {A}gility), y Suerte (\textbf {L}uck)},%
+descriptionplural={S.P.E.C.I.A.L es la sigla usada para los atributos de Fuerza (\textbf {S}trenght), Percepción (\textbf {P}erception), Resistencia (\textbf {E}ndurance), Carisma, (\textbf {C}harisma), Inteligencia, (\textbf {I}ntelligence), Agilidad, (\textbf {A}gility), y Suerte (\textbf {L}uck)},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={\protect \textit  {Strenght, Perception, Endurance, Charisma, Intelligence, Agility \& Luck}},%
+longplural={\protect \textit  {Strenght, Perception, Endurance, Charisma, Intelligence, Agility \& Luck}s},%
+short={SPECIAL},%
+shortplural={SPECIALs},%
+counter={page},%
+parent={},%
+%
+}%
+
