@@ -15,12 +15,11 @@ Es importante disponer de herramientas que puedan reconstruir este tipo de imág
 
 \section{Objetivos}
 
-\quad El objetivo principal de este \gls{pfg} es diseñar y desarrollar modelos de redes neuronales con la finalidad de reconstruir y escalar imágenes. Además de este objetivo, se han establecido otros objetivos adicionales:
+\quad El objetivo principal de este \gls{pfg} es diseñar y desarrollar modelos de redes neuronales para reconstruir y escalar imágenes. Dentro de este objetivo se han establecido los siguientes objetivos específicos:
 
 \begin{itemize}
-	\item Estudiar el funcionamiento de cada red neuronal y aplicar los conocimientos adquiridos para mejorar la comprensión del tema.
-	\item Comparar diversas arquitecturas de redes neuronales y evaluar su tiempo de entrenamiento, con el propósito de identificar el modelo más rápido.
-	\item Investigar cómo distintas arquitecturas de redes neuronales pueden influir en la precisión y rendimiento de estos procesos.
+	\item Comparar diversas arquitecturas de redes neuronales y evaluar su tiempo de entrenamiento, con el propósito de identificar el modelo más eficiente.
+	\item Investigar cómo distintas arquitecturas de redes neuronales pueden influir en la precisión de la restauración y escalado de imágenes.
 
 \end{itemize}
 %Una de las partes más importante y complicada. Se considera \textbf{la finalidad} del proyecto en cuestión a realizar y suele encajar dentro de una de las siguientes categorías:
@@ -45,25 +44,49 @@ Es importante disponer de herramientas que puedan reconstruir este tipo de imág
 
 \section{Motivación}
 
-Se refiere a los factores que han hecho que el estudiante se decante por trabajar en éste tema.
 
-Lo suyo sería apoyarse en buscar motivaciones más allá de las expresiones tipo \enquote{ampliar mis conocimientos}. Algunas fuentes donde encontrarla son las revistas especializadas, periódicos, organismos de estandarización, \glspl{ong}, etcétera.
+\quad El principal motivo que me ha llevado a realizar este \gls{pfg} son las posibles aplicaciones prácticas que puede tener el uso de redes neuronales para la reconstrucción y escalado de imágenes. En muchas profesiones, la captura de imágenes es esencial, por lo que si estas presentan deterioro, este tipo de tecnología puede ayudar en ámbitos como la medicina, astronomía, seguridad o incluso en entretenimiento\cite{medicalrestore2,medicalrestore1,astronomyrestore1,securityrestore1,nvidia_dlss}.
+
+%Se refiere a los factores que han hecho que el estudiante se decante por trabajar en éste tema.
+
+%Lo suyo sería apoyarse en buscar motivaciones más allá de las expresiones tipo \enquote{ampliar mis conocimientos}. Algunas fuentes donde encontrarla son las revistas especializadas, periódicos, organismos de estandarización, \glspl{ong}, etcétera.
 
 \section{Justificación}
 
-En esta sección se deben explicar y argumentar las razones por las cuales se eligió el tema del proyecto, así como su importancia y relevancia. Algunos elementos clave que se pueden abordar en esta sección son:
+\quad La principal razón por la que se ha elegido este \gls{pfg} es para abordar el problema que puede presentar la captura de imágenes, y es el deterioro. En muchas profesiones se trabaja día a día con imágenes y es esencial procesarlas para que sean lo mas fieles a la realidad:
 
-\begin{enumerate}
-    \item \textbf{Relevancia del tema}: ¿Existe alguna necesidad o problema específico que tu proyecto pueda abordar?
-    \item \textbf{Justificación teórica}: Mención sobre qué teorías, enfoques o modelos existentes en la literatura respalden la importancia de abordar este tema.
-    \item \textbf{Brecha en el conocimiento}: ¿Qué aspectos no se han explorado lo suficiente o no han sido abordados en estudios previos? ¿Cómo puede el proyecto contribuir a cerrar esa brecha en el conocimiento?
-    \item \textbf{Contribución práctica}: Aplicaciones del proyecto y cómo pueden beneficiar a la comunidad académica, profesional o a la sociedad en general.
-\end{enumerate}
+\begin{itemize}
+	\item En el ámbito de la medicina, es necesario la visualización de imágenes por parte del personal médico para la detección o prevención de posibles enfermedades. Las imágenes más comunes son los rayosX, ultrasonidos, resonancias magnéticas, endoscopias, \gls{tac} o mamografías para la posible detección del cáncer de mama\cite{VisibleBodyBlog,medicalrestore1,ganinmedicine,sonysurgicalimaging}. Un software muy utilizado es ImageJ2, escrito en java aunque con la capacidad de trabajar con scripts en python, tiene herramientas de escalado y restauración de imágenes\cite{imagej2}.
+	
+	\item En el ámbito de la astronomía, la observación y el análisis de imágenes juegan un papel fundamental en la comprensión del universo y sus fenómenos. Los astrónomos utilizan una amplia variedad de técnicas de observación, desde telescopios terrestres hasta observatorios espaciales, para capturar imágenes de objetos celestes en diferentes longitudes de onda del espectro electromagnético. Estas imágenes proporcionan información crucial sobre la composición, la estructura y la evolución de objetos astronómicos, como estrellas, galaxias, nebulosas y planetas\cite{astronomyrestore1,srastology}.
+	
+	\item En el ámbito de la seguridad, las cámaras de seguridad son un elemento muy importante para identificar a posibles delincuentes, monitorear áreas de interés y prevenir incidentes\cite{securityrestore1}.
+	
+	\item En el ámbito del entretenimiento, como pueden ser los videojuegos, se han desarrollado técnicas para mejorar la resolución de los juegos manteniendo la tasa de refresco intacta, tales como el \gls{dlss} por parte de NVIDIA o \gls{fsr} de su competidora AMD\cite{nvidia_dlss,amd_fsr}.
+\end{itemize}
 
-La sección no tiene por qué ser demasiado extensa, ni tiene por qué incluir (o limitarse) a los puntos anteriores, pero debe ser lo suficientemente clara y convincente para que los lectores comprendan por qué el proyecto es relevante y necesario.
+%En esta sección se deben explicar y argumentar las razones por las cuales se eligió el tema del proyecto, así como su importancia y relevancia. Algunos elementos clave que se pueden abordar en esta sección son:
+
+%\begin{enumerate}
+  %  \item \textbf{Relevancia del tema}: ¿Existe alguna necesidad o problema específico que tu proyecto pueda abordar?
+ %   \item \textbf{Justificación teórica}: Mención sobre qué teorías, enfoques o modelos existentes en la literatura respalden la importancia de abordar este tema.
+ %   \item \textbf{Brecha en el conocimiento}: ¿Qué aspectos no se han explorado lo suficiente o no han sido abordados en estudios previos? ¿Cómo puede el proyecto contribuir a cerrar esa brecha en el conocimiento?
+ %   \item \textbf{Contribución práctica}: Aplicaciones del proyecto y cómo pueden beneficiar a la comunidad académica, profesional o a la sociedad en general.
+%\end{enumerate}
+
+%La sección no tiene por qué ser demasiado extensa, ni tiene por qué incluir (o limitarse) a los puntos anteriores, pero debe ser lo suficientemente clara y convincente para que los lectores comprendan por qué el proyecto es relevante y necesario.
 
 \section{Estructura de la memoria}
 
-Cómo se organiza y estructura el proyecto en su totalidad. Esta sección presenta un resumen de los diferentes capítulos que conforman la memoria, así como una \textbf{muy breve} descripción de su contenido y propósito.
 
-Proporciona al lector una visión general de la estructura y el flujo del trabajo, permitiéndole comprender la secuencia lógica de cómo se desarrolla el trabajo o investigación.
+\quad El documento está estructurado de la siguiente manera: 
+\begin{enumerate}
+  \item En el apartado 2 se mirará detalladamente el marco teórico y el estado del arte, mostrando tanto el modelo clásico de restauración y escalado como el actual.
+  \item En el apartado 3 se explicará el preprocesamiento de los datos realizado y las arquitecturas de redes neuronales utilizadas.
+  \item En el apartado 4 se mostrarán y explicarán los resultados obtenidos, los objetivos logrados y los problemas encontrados durante el desarrollo del \gls{pfg}.
+  \item En el apartado 5 se presentarán las conclusiones, el impacto social y medioambiental, y las líneas futuras.
+  
+\end{enumerate}
+%Cómo se organiza y estructura el proyecto en su totalidad. Esta sección presenta un resumen de los diferentes capítulos que conforman la memoria, así como una \textbf{muy breve} descripción de su contenido y propósito.
+
+%Proporciona al lector una visión general de la estructura y el flujo del trabajo, permitiéndole comprender la secuencia lógica de cómo se desarrolla el trabajo o investigación.

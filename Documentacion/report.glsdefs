@@ -250,3 +250,339 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{dlss}%
+{%
+name={\acronymfont {\glsentryshort {dlss}}},%
+sort={DLSS},%
+type={acronym},%
+first={DLSS},%
+firstplural={DLSSs},%
+text={DLSS},%
+plural={DLSSs},%
+description={Deep Learning Super Sampling. Supermuestreo de Aprendizaje Profundo. Tecnología de nvidia para el escalado en videojuegos},%
+descriptionplural={Deep Learning Super Sampling. Supermuestreo de Aprendizaje Profundo. Tecnología de nvidia para el escalado en videojuegos},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={\protect \textit  {Deep Learning Super Sampling}},%
+longplural={\protect \textit  {Deep Learning Super Sampling}s},%
+short={DLSS},%
+shortplural={DLSS},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{fsr}%
+{%
+name={\acronymfont {\glsentryshort {fsr}}},%
+sort={FSR},%
+type={acronym},%
+first={FSR},%
+firstplural={FSRs},%
+text={FSR},%
+plural={FSRs},%
+description={FidelityFX Super Resolution. Tecnología de AMD para la super resolución en videojuegos},%
+descriptionplural={FidelityFX Super Resolution. Tecnología de AMD para la super resolución en videojuegos},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={\protect \textit  {FidelityFX Super Resolution}},%
+longplural={\protect \textit  {FidelityFX Super Resolution}s},%
+short={FSR},%
+shortplural={FSR},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{tac}%
+{%
+name={\acronymfont {\glsentryshort {tac}}},%
+sort={TAC},%
+type={acronym},%
+first={TAC},%
+firstplural={TACs},%
+text={TAC},%
+plural={TACs},%
+description={TAC (Tomografía Axial Computarizada) utiliza rayosX para obtener imágenes detalladas del cuerpo humano},%
+descriptionplural={TAC (Tomografía Axial Computarizada) utiliza rayosX para obtener imágenes detalladas del cuerpo humano},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={\protect \textit  {Tomografía Axial Computarizada}},%
+longplural={\protect \textit  {Tomografía Axial Computarizada}s},%
+short={TAC},%
+shortplural={TAC},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{pse}%
+{%
+name={\acronymfont {\glsentryshort {pse}}},%
+sort={PSE},%
+type={acronym},%
+first={PSE},%
+firstplural={PSEs},%
+text={PSE},%
+plural={PSEs},%
+description={PSE (Equalización del Espectro de Potencia o Power Spectrum Equalization en inglés) es una técnica usada para restaurar señales deterioradas},%
+descriptionplural={PSE (Equalización del Espectro de Potencia o Power Spectrum Equalization en inglés) es una técnica usada para restaurar señales deterioradas},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={\protect \textit  {Power Spectrum Equalization}},%
+longplural={\protect \textit  {Power Spectrum Equalization}s},%
+short={PSE},%
+shortplural={PSE},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{cnn}%
+{%
+name={\acronymfont {\glsentryshort {cnn}}},%
+sort={CNN},%
+type={acronym},%
+first={CNN},%
+firstplural={CNNs},%
+text={CNN},%
+plural={CNNs},%
+description={Redes de neuronas convolucionales o en ingles Convolutional Neural Network},%
+descriptionplural={Redes de neuronas convolucionales o en ingles Convolutional Neural Network},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={\protect \textit  {redes de neuronas convolucionales}},%
+longplural={\protect \textit  {redes de neuronas convolucionales}s},%
+short={CNN},%
+shortplural={CNNs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{vae}%
+{%
+name={\acronymfont {\glsentryshort {vae}}},%
+sort={VAE},%
+type={acronym},%
+first={VAE},%
+firstplural={VAEs},%
+text={VAE},%
+plural={VAEs},%
+description={Los codificadores automáticos variables son un tipo de red de neuronas},%
+descriptionplural={Los codificadores automáticos variables son un tipo de red de neuronas},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={\protect \textit  {Variational Autoencoder}},%
+longplural={\protect \textit  {Variational Autoencoder}s},%
+short={VAE},%
+shortplural={VAEs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{gan}%
+{%
+name={\acronymfont {\glsentryshort {gan}}},%
+sort={GAN},%
+type={acronym},%
+first={GAN},%
+firstplural={GANs},%
+text={GAN},%
+plural={GANs},%
+description={Redes generativas adversarias o Generative Adversarial Networks son un tipo de red de neuronas},%
+descriptionplural={Redes generativas adversarias o Generative Adversarial Networks son un tipo de red de neuronas},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={\protect \textit  {Generative Adversarial Network}},%
+longplural={\protect \textit  {Generative Adversarial Network}s},%
+short={GAN},%
+shortplural={GANs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{cgan}%
+{%
+name={\acronymfont {\glsentryshort {cgan}}},%
+sort={cGAN},%
+type={acronym},%
+first={cGAN},%
+firstplural={cGANs},%
+text={cGAN},%
+plural={cGANs},%
+description={Redes generativas adversarias Condicinales o Consitional Generative Adversarial Networks son un tipo de red de neuronas},%
+descriptionplural={Redes generativas adversarias Condicinales o Consitional Generative Adversarial Networks son un tipo de red de neuronas},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={\protect \textit  {Conditional Generative Adversarial Network}},%
+longplural={\protect \textit  {Conditional Generative Adversarial Network}s},%
+short={cGAN},%
+shortplural={cGANs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{mae}%
+{%
+name={\acronymfont {\glsentryshort {mae}}},%
+sort={MAE},%
+type={acronym},%
+first={MAE},%
+firstplural={MAEs},%
+text={MAE},%
+plural={MAEs},%
+description={Error Absoluto Medio o error l1},%
+descriptionplural={Error Absoluto Medio o error l1},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={\protect \textit  {Error Absoluto Medio}},%
+longplural={\protect \textit  {Error Absoluto Medio}s},%
+short={MAE},%
+shortplural={mae},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{mse}%
+{%
+name={\acronymfont {\glsentryshort {mse}}},%
+sort={MSE},%
+type={acronym},%
+first={MSE},%
+firstplural={MSEs},%
+text={MSE},%
+plural={MSEs},%
+description={Error Cuadrático Medio o error l2},%
+descriptionplural={Error Cuadrático Medio o error l2},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={\protect \textit  {Error Cuadrático Medio}},%
+longplural={\protect \textit  {Error Cuadrático Medio}s},%
+short={MSE},%
+shortplural={mse},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{elbo}%
+{%
+name={\acronymfont {\glsentryshort {elbo}}},%
+sort={ELBO},%
+type={acronym},%
+first={ELBO},%
+firstplural={ELBOs},%
+text={ELBO},%
+plural={ELBOs},%
+description={Evidence Lower Bound o Límite Inferior de Evidencia},%
+descriptionplural={Evidence Lower Bound o Límite Inferior de Evidencia},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={\protect \textit  {Evidence Lower Bound}},%
+longplural={\protect \textit  {Evidence Lower Bound}s},%
+short={ELBO},%
+shortplural={ELBO},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{gpu}%
+{%
+name={\acronymfont {\glsentryshort {gpu}}},%
+sort={GPU},%
+type={acronym},%
+first={GPU},%
+firstplural={GPUs},%
+text={GPU},%
+plural={GPUs},%
+description={Graphics Processing Unit o Unidad de Procesamiento Gráfico},%
+descriptionplural={Graphics Processing Unit o Unidad de Procesamiento Gráfico},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={\protect \textit  {Graphics Processing Unit}},%
+longplural={\protect \textit  {Graphics Processing Unit}s},%
+short={GPU},%
+shortplural={GPUs},%
+counter={page},%
+parent={},%
+%
+}%
+

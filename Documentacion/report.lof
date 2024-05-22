@@ -1,14 +1,43 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Imagen comparativa del uso del filtro inverso en una imagen con desenfoque. Fuente: \blx@tocontentsinit {0}\cite {OWLNet_inverse}}}{5}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Imagen comparativa del uso del filtro inverso en una imagen con ruido. Fuente: \blx@tocontentsinit {0}\cite {OWLNet_inverse}}}{5}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Imagen comparativa del uso de la deconvolución a ciegas. Fuente: \blx@tocontentsinit {0}\cite {OWLNet_blind}}}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Imagen de El Fary reescalada a 64x64. Fuente: \blx@tocontentsinit {0}\cite {fary}}}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Proceso de \textit {Nearest Neighbor}. Fuente: Elaboración propia.}}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Escalado con bilinear. Fuente: Elaboración propia.}}{7}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Neurona Artificial. Fuente: Elaboración propia.}}{8}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Red de neuronas. Fuente: Elaboración propia.}}{9}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Aplanar una imagen para la entrada de una red de neuronas. Fuente: \blx@tocontentsinit {0}\cite {flatten}}}{10}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Arquitectura de una \acrfull {cnn}. Fuente: \blx@tocontentsinit {0}\cite {Calvo}}}{11}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Operación de convolución. Fuente: \blx@tocontentsinit {0}\cite {Calvo}}}{11}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Operación de MaxPooling. Fuente: \blx@tocontentsinit {0}\cite {Calvo}}}{12}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Transpose Convolution. Fuente: \blx@tocontentsinit {0}\cite {transposecv}}}{12}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Autoencoder. Fuente: Elaboración Propia.}}{13}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Representación de un variational autoencoder. Fuente: Elaboración Propia.}}{15}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Representación de una red \gls {cgan}. Fuente: Elaboración Propia.}}{16}{figure.caption.22}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Vault Boy approves that}}{16}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Todos los Vault Boy}}{18}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Logotipo de drawio. Fuente: \blx@tocontentsinit {0}\cite {drawio}}}{18}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Logotipo de Anaconda. Fuente: \blx@tocontentsinit {0}\cite {python}}}{19}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Logotipo de Anaconda. Fuente: \blx@tocontentsinit {0}\cite {anacondaRTD}}}{20}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Logotipo de Visual Studio Code. Fuente: \blx@tocontentsinit {0}\cite {vscodeicon}}}{20}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Logotipo de Jupyter. Fuente: \blx@tocontentsinit {0}\cite {jupyter_wikipedia}}}{21}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Logotipo de Jupyter. Fuente: \blx@tocontentsinit {0}\cite {excel_wikipedia}}}{21}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Comparación de imágenes en el dataset DIV2K Fuente:\blx@tocontentsinit {0}\cite {Agustsson_2017_CVPR_Workshops,8014884}}}{22}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagrama de flujo de la creación de los Datasets. Fuente: Elaboración propia}}{24}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Composición del autoencoder. Los valores debajo de la convolución significan: c el número de filtros y k el tamño del kernel. Fuente: Elaboración propia}}{26}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Composición del generador. Los valores debajo de cada capa de convolución significan: c el número de filtros, k el tamaño del kernel y s el tamaño del stride. Fuente: Elaboración propia}}{30}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Composición del discriminador. Los valores debajo de cada capa de convolución significan: c el número de filtros, k el tamaño del kernel y s el tamaño del stride. Fuente: Elaboración propia}}{31}{figure.caption.38}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Logo de la ETSIAAB utilizado en la cubierta trasera de la memoria}}{29}{figure.caption.15}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Logo de la ETSIDI utilizado en la cubierta trasera de la memoria}}{30}{figure.caption.16}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Logo de la ETSISI utilizado en la cubierta trasera de la memoria}}{30}{figure.caption.17}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Vault Boy approves that}}{44}{figure.caption.45}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Todos los Vault Boy}}{46}{figure.caption.47}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Logo de la ETSIAAB utilizado en la cubierta trasera de la memoria}}{57}{figure.caption.51}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Logo de la ETSIDI utilizado en la cubierta trasera de la memoria}}{58}{figure.caption.52}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Logo de la ETSISI utilizado en la cubierta trasera de la memoria}}{58}{figure.caption.53}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 
