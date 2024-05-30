@@ -267,7 +267,7 @@ Siendo este valor el valor de pérdida del modelo al que se le va a añadir el e
 
 \subsubsection{Creación de los modelos}
 
-Como ya se ha visto, en el apartado \ref{ch:estado del arte},  las redes \gls{gan} se dividen en dos modelos: el generador y el discriminador.
+Como ya se ha visto, en el apartado \ref{ch:estado del arte},  las redes \gls{gan} se dividen en dos modelos: el generador y el discriminador. Para la creación de todas las redes GAN se ha seguido parte del modelo propuesto en \cite{pix2pix}.
 
 En cuanto al generador, es un tanto distinto a los generadores de las redes \gls{gan}, en este caso, se ha decidido usar una red \acrfull{cgan}, las redes \gls{cgan} se distinguen de las redes \gls{gan} principalmente por su generador, el cual es condicionado por una imagen que se llamará \textit{input}, en vez de provenir de una distribución normal Gaussiana.
 
@@ -301,8 +301,40 @@ Después, se añaden tres capas de downsampling, cada una con la misma estructur
 
 \subsubsection{Entrenamiento de los modelos}
 
-Cada red tiene una función de pérdida diferente,
+Cada red tiene una función de pérdida diferente, para todos los modelos, a partir de ahora, las funciones de pérdida del generador y el discriminador van a ser las mismas.
+
+En cuanto a la pérdida del generador, el \textit{input} se introduce tanto en el generador como en el discriminador. Antes de ingresar al discriminador, el \textit{input} se somete a un escalado bilinear para asegurar que las entradas al discriminador tengan el mismo tamaño. El generador produce una imagen que se envía al discriminador, el cual compara esta imagen generada con la imagen escalada.
+
+El resultado del discriminador se evalúa aplicando una función de entropía cruzada sigmoidea, utilizando una matriz de unos. Además, se calcula el error absoluto medio (\gls{mae}) entre el \textit{target} y el \textit{input}, y este valor se multiplica por un factor lambda previamente definido.
+
+Finalmente, se suman ambos errores, y el resultado se utiliza para ajustar los gradientes y actualizar el generador.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{figures/losses_GAN_Generador.png}
+	\caption{\label{fig:gangenloss}Diagrama de flujo del cálculo del error para el generador. Fuente: Elaboración propia}
+\end{figure}
+
+En cuanto a la pérdida del discriminador, el proceso comienza con la entrada de los datos. El \textit{input} primero pasa por un escalado bilinear para que las entradas al discriminador tengan el mismo tamaño. Luego, tanto el \textit{input} escalado como el \textit{target} real se envían al discriminador.
+
+El discriminador recibe dos conjuntos de datos: la imagen real escalada y la imagen generada por el generador. Compara estas dos imágenes para determinar la autenticidad de la imagen generada.
+
+El resultado del discriminador se evalúa aplicando una función de entropía cruzada sigmoidea con una matriz de ceros para las imágenes generadas y una matriz de unos para las imágenes reales. Esto permite calcular la pérdida del discriminador, evaluando qué tan bien puede distinguir entre imágenes reales y generadas.
+
+Finalmente, el error del discriminador se usa para ajustar los pesos del modelo durante el proceso de entrenamiento, mejorando su capacidad para diferenciar entre imágenes reales y generadas.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{figures/losses_GAN_Discriminador.png}
+	\caption{\label{fig:gandiscloss}Diagrama de flujo del cálculo del error para el discriminador. Fuente: Elaboración propia}
+\end{figure}
+
 
 \section{cGAN: (pix2pix)}
+
+\subsubsection{Creación de los modelos}
+
+Este modelo fue propuesto en 2017 por....
 
 \section{EDSR cGAN}

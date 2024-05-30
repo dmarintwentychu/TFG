@@ -29,15 +29,17 @@
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Composición del autoencoder. Los valores debajo de la convolución significan: c el número de filtros y k el tamño del kernel. Fuente: Elaboración propia}}{26}{figure.caption.32}%
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Composición del generador. Los valores debajo de cada capa de convolución significan: c el número de filtros, k el tamaño del kernel y s el tamaño del stride. Fuente: Elaboración propia}}{30}{figure.caption.37}%
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Composición del discriminador. Los valores debajo de cada capa de convolución significan: c el número de filtros, k el tamaño del kernel y s el tamaño del stride. Fuente: Elaboración propia}}{31}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Diagrama de flujo del cálculo del error para el generador. Fuente: Elaboración propia}}{32}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Diagrama de flujo del cálculo del error para el discriminador. Fuente: Elaboración propia}}{33}{figure.caption.41}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Vault Boy approves that}}{44}{figure.caption.45}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Todos los Vault Boy}}{46}{figure.caption.47}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Vault Boy approves that}}{46}{figure.caption.48}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Todos los Vault Boy}}{48}{figure.caption.50}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Logo de la ETSIAAB utilizado en la cubierta trasera de la memoria}}{57}{figure.caption.51}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Logo de la ETSIDI utilizado en la cubierta trasera de la memoria}}{58}{figure.caption.52}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Logo de la ETSISI utilizado en la cubierta trasera de la memoria}}{58}{figure.caption.53}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Logo de la ETSIAAB utilizado en la cubierta trasera de la memoria}}{59}{figure.caption.54}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Logo de la ETSIDI utilizado en la cubierta trasera de la memoria}}{60}{figure.caption.55}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Logo de la ETSISI utilizado en la cubierta trasera de la memoria}}{60}{figure.caption.56}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 

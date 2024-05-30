@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.15)  22 MAY 2024 02:50
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.15)  22 MAY 2024 03:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1533,7 +1533,13 @@ LaTeX Info: Redefining \% on input line 1.
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [2])
+ [2]
+Overfull \hbox (7.9343pt too wide) in paragraph at lines 33--33
+ [][] [][][]\TU/Montserrat(0)/m/n/12 Diagrama de flujo del cálculo del error pa
+ra el discriminador. Fuen- 
+ []
+
+)
 \tf@lof=\write9
 \openout9 = `report.lof'.
 
@@ -1545,14 +1551,13 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@lot=\write10
 \openout10 = `report.lot'.
 
-
-(./report.lol
+ (./report.lol
 Overfull \hbox (0.80864pt too wide) in paragraph at lines 2--2
  [][] [][][]\TU/Montserrat(0)/m/n/12 Inclusión del fichero de referencias bibli
 ográficas \TU/firacode(0)/m/n/12 references.bib[][] [][]  
  []
 
-)
+[4])
 \tf@lol=\write11
 \openout11 = `report.lol'.
 
@@ -1560,9 +1565,6 @@ ográficas \TU/firacode(0)/m/n/12 references.bib[][] [][]
 \tf@equ=\write12
 \openout12 = `report.equ'.
 
- [4]
-LaTeX Info: Redefining \. on input line 33.
-LaTeX Info: Redefining \% on input line 33.
  [5]
 \openout2 = `frontmatter/glossary.aux'.
 
@@ -1739,8 +1741,8 @@ L/cmm/m/it/12 p\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 z\OT1/cmr/m/n/12 )) + \OML/cmm
 /m/it/12 E[]\OT1/cmr/m/n/12 [[] []]
  []
 
-LaTeX Info: Redefining \. on input line 272.
-LaTeX Info: Redefining \% on input line 272.
+LaTeX Info: Redefining \. on input line 271.
+LaTeX Info: Redefining \% on input line 271.
 [28]
 File: figures/Generador_normal.png Graphic file (type bmp)
 <figures/Generador_normal.png>
@@ -1751,10 +1753,20 @@ File: figures/discriminator.png Graphic file (type bmp)
 <figures/discriminator.png>
 LaTeX Info: Redefining \. on input line 300.
 LaTeX Info: Redefining \% on input line 300.
- [30]) (./chapters/configuracion.tex
+ [30]
+File: figures/losses_GAN_Generador.png Graphic file (type bmp)
+<figures/losses_GAN_Generador.png>
+LaTeX Info: Redefining \. on input line 318.
+LaTeX Info: Redefining \% on input line 318.
+ [31]
+File: figures/losses_GAN_Discriminador.png Graphic file (type bmp)
+<figures/losses_GAN_Discriminador.png>
+LaTeX Info: Redefining \. on input line 332.
+LaTeX Info: Redefining \% on input line 332.
+ [32]) (./chapters/configuracion.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [31]
+ [33]
 Capítulo 4.
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/03/11 1.10a listings language file
@@ -1785,7 +1797,7 @@ File: lstlang3.sty 2024/03/11 1.10a listings language file
 )
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/03/11 1.10a (Carsten Heinz)
-) [32
+) [34
 
 ]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
@@ -1793,27 +1805,27 @@ nput line 20.
  (./report.tex) (./report.tex)
 LaTeX Info: Redefining \. on input line 37.
 LaTeX Info: Redefining \% on input line 37.
- [33] (./report.tex) (./report.tex)
+ [35] (./report.tex) (./report.tex)
 LaTeX Info: Redefining \. on input line 50.
 LaTeX Info: Redefining \% on input line 50.
- [34]
+ [36]
 LaTeX Info: Redefining \. on input line 73.
 LaTeX Info: Redefining \% on input line 73.
- [35])
+ [37])
 (./chapters/componentes.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [36]
+ [38]
 Capítulo 5.
-[37
+[39
 
 ]
 LaTeX Info: Redefining \. on input line 75.
 LaTeX Info: Redefining \% on input line 75.
- [38]
+ [40]
 LaTeX Info: Redefining \. on input line 101.
 LaTeX Info: Redefining \% on input line 101.
- [39]
+ [41]
 Overfull \hbox (7.844pt too wide) in paragraph at lines 121--122
 \TU/Montserrat(0)/m/n/12 El estilo usado es una modificación[][][][][] de [][]S
 olarized[][] desarrollado por Ethan Schoo-
@@ -1822,7 +1834,7 @@ olarized[][] desarrollado por Ethan Schoo-
 (./sources/adding-blocks.tex
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
- [40]) (./sources/adding-blocks.tex)
+ [42]) (./sources/adding-blocks.tex)
 Overfull \hbox (14.31818pt too wide) in paragraph at lines 139--140
 []\TU/Montserrat(0)/m/n/12 Una cosa que hay que tener en cuenta es que dentro d
 e un entorno \TU/firacode(0)/m/n/12 lstlisting
@@ -1831,23 +1843,23 @@ e un entorno \TU/firacode(0)/m/n/12 lstlisting
 (./sources/adding-blocks.tex) (./sources/adding-blocks.tex
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
- [41])
+ [43])
 (./sources/snippets.py)
 LaTeX Info: Redefining \. on input line 175.
 LaTeX Info: Redefining \% on input line 175.
- [42] (./sources/snippets.py)
+ [44] (./sources/snippets.py)
 (./sources/adding-blocks.tex) (./sources/adding-blocks.tex)
 LaTeX Info: Redefining \. on input line 189.
 LaTeX Info: Redefining \% on input line 189.
- [43]
+ [45]
 File: figures/vault-boy.png Graphic file (type bmp)
 <figures/vault-boy.png>
 LaTeX Info: Redefining \. on input line 215.
 LaTeX Info: Redefining \% on input line 215.
- [44]
+ [46]
 LaTeX Info: Redefining \. on input line 240.
 LaTeX Info: Redefining \% on input line 240.
- [45]
+ [47]
 File: figures/vault-boy.png Graphic file (type bmp)
 <figures/vault-boy.png>
 File: figures/vault-boy.png Graphic file (type bmp)
@@ -1861,10 +1873,10 @@ ndard glyph set (RS)
 )
 LaTeX Info: Redefining \. on input line 274.
 LaTeX Info: Redefining \% on input line 274.
- [46]
+ [48]
 LaTeX Info: Redefining \. on input line 290.
 LaTeX Info: Redefining \% on input line 290.
- [47]
+ [49]
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/03/11 1.10a listings language file
 )
@@ -1876,7 +1888,7 @@ File: lstlang3.sty 2024/03/11 1.10a listings language file
 )
 LaTeX Info: Redefining \. on input line 320.
 LaTeX Info: Redefining \% on input line 320.
- [48]
+ [50]
 Overfull \hbox (21.5918pt too wide) in paragraph at lines 339--340
 \TU/Montserrat(0)/m/n/12 que son opcionales. La primera es la equivalente a \TU
 /firacode(0)/m/n/12 plural \TU/Montserrat(0)/m/n/12 de \TU/firacode(0)/m/n/12 n
@@ -1885,28 +1897,28 @@ ewglossaryentry\TU/Montserrat(0)/m/n/12 ,
 
 LaTeX Info: Redefining \. on input line 344.
 LaTeX Info: Redefining \% on input line 344.
-[49]
+[51]
 LaTeX Info: Redefining \. on input line 380.
 LaTeX Info: Redefining \% on input line 380.
- [50]
+ [52]
 LaTeX Info: Redefining \. on input line 393.
 LaTeX Info: Redefining \% on input line 393.
- [51]
+ [53]
 LaTeX Info: Redefining \. on input line 413.
 LaTeX Info: Redefining \% on input line 413.
- [52]
+ [54]
 
-LaTeX Warning: Citation 'mcculloch1943logical' on page 53 undefined on input li
+LaTeX Warning: Citation 'mcculloch1943logical' on page 55 undefined on input li
 ne 432.
 
 LaTeX Info: Redefining \. on input line 438.
 LaTeX Info: Redefining \% on input line 438.
-[53]) (./chapters/licencia.tex
+[55]) (./chapters/licencia.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [54]
+ [56]
 Capítulo 6.
-) (./appendices/escuelas-y-titulos.tex [55
+) (./appendices/escuelas-y-titulos.tex [57
 
 ]
 Apéndice A.
@@ -1919,7 +1931,7 @@ L/cmm/m/it/12 ; \OT1/cmr/m/n/12 76)$\TU/Montserrat(0)/m/n/12 .
 
 File: upm-report/logos/logo-etsiaab.png Graphic file (type bmp)
 <upm-report/logos/logo-etsiaab.png>
-[56
+[58
 
 ]
 Overfull \hbox (5.10896pt too wide) in paragraph at lines 52--53
@@ -1932,7 +1944,7 @@ File: upm-report/logos/logo-etsidi.png Graphic file (type bmp)
 <upm-report/logos/logo-etsidi.png>
 LaTeX Info: Redefining \. on input line 67.
 LaTeX Info: Redefining \% on input line 67.
-[57]
+[59]
 Overfull \hbox (2.57697pt too wide) in paragraph at lines 72--73
 []\TU/Montserrat(0)/m/n/12 La ETSISI tiene configurados como colores principal 
 y de link el RGB $\OT1/cmr/m/n/12 (0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 177\OML/
@@ -1944,13 +1956,13 @@ File: upm-report/logos/logo-etsisi.png Graphic file (type bmp)
 ) (./appendices/ampliar.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [58]
+ [60]
 Apéndice B.
-) (./appendices/paquetes.tex [59
+) (./appendices/paquetes.tex [61
 
 ]
 Apéndice C.
-) [60
+) [62
 
 ]
 Overfull \hbox (3.4216pt too wide) in paragraph at lines 55--55
@@ -1978,7 +1990,7 @@ Overfull \hbox (19.08006pt too wide) in paragraph at lines 55--55
 t(0)/m/n/12 . 
  []
 
-[61
+[63
 
 
 ]
@@ -2014,7 +2026,7 @@ Overfull \hbox (34.34929pt too wide) in paragraph at lines 55--55
 
 LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
-[62]
+[64]
 Overfull \hbox (4.8238pt too wide) in paragraph at lines 55--55
 \TU/Montserrat(0)/m/it/12 Biological Cybernetics\TU/Montserrat(0)/m/n/12 , vol.
  36, n.[] 4, págs. 193[]202, 1980. dirección: [][]$[][][][][] []
@@ -2055,7 +2067,7 @@ s® in Machine Learning\TU/Montserrat(0)/m/n/12 , vol. 12, n.[] 4, págs. 307[]3
 
 LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
-[63]
+[65]
 Overfull \hbox (3.75366pt too wide) in paragraph at lines 55--55
 []\TU/Montserrat(0)/m/n/12 W. contributors. «  TensorFlow.» Accessed: 2024-05-1
 9. (), dirección: [][]$[][][][][] []
@@ -2093,21 +2105,27 @@ ontserrat(0)/m/n/12 , 2017, págs. 1122[]1131.
 
 LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
-[64]
+[66]
 Overfull \hbox (91.43452pt too wide) in paragraph at lines 55--55
 \TU/Montserrat(0)/m/n/12 dirección: [][]$[][][][][] [] [] [] [][][][] [] [][][]
 [][][] [] [][][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][]$[][]. 
  []
 
+
+Overfull \hbox (39.71239pt too wide) in paragraph at lines 55--55
+\TU/Montserrat(0)/m/it/12 rence on computer vision and pattern recognition (CVP
+R)\TU/Montserrat(0)/m/n/12 , 2017, págs. 1125[]1134. 
+ []
+
 LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
-[65] (./report.gls) (./report.acr [66
+[67] (./report.gls) (./report.acr [68
 
 ])
 LaTeX Info: Redefining \. on input line 55.
 LaTeX Info: Redefining \% on input line 55.
- [67]
+ [69]
 File: upm-report/logos/logo-etsisi.png Graphic file (type bmp)
 <upm-report/logos/logo-etsisi.png>
 
@@ -2116,7 +2134,7 @@ File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
 )
 (c:/texlive/2024/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-) [68
+) [70
 
 ]
 (./report.aux
@@ -2135,12 +2153,12 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40906 strings out of 474706
- 774249 string characters out of 5759853
+ 40929 strings out of 474706
+ 775100 string characters out of 5759853
  2031406 words of memory out of 5000000
- 62419 multiletter control sequences out of 15000+600000
+ 62440 multiletter control sequences out of 15000+600000
  563817 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 106i,13n,127p,2357b,32890s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 106i,13n,127p,2357b,32889s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.pdf (78 pages).
+Output written on report.pdf (80 pages).

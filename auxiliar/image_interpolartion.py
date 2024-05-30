@@ -2,13 +2,13 @@ from PIL import Image
 import numpy as np
 
 # Abrir la imagen
-img = Image.open("fary.jpg")
-resized_img = img.resize((64, 64))
-resized_img.save("fary.jpg")
-resized_img.resize((128,128),resample=0).save("fary_near_neighbour.jpg")
-#resized_img.resize((128,128),resample=).save("fary_near_neighbour.jpg")
+img = Image.open("casaup.jpg")
+resized_img = img.resize((128, 128))
+resized_img.save("casaup.jpg")
+resized_img.resize((256,256),resample=0).save("casaup_near_neighbour.jpg")
+resized_img.resize((256,256),resample=1).save("casaup_near_bilinear.jpg")
 
-img = Image.open("fary.jpg")
+img = Image.open("casaup.jpg")
 
 # Convertir la imagen a un array de numpy
 img_array = np.array(img)
@@ -33,5 +33,5 @@ for y in range(original_height):
         new_image.putpixel((x * (padding + 1), y * (padding + 1)), pixel)
 
 # Guardar la nueva imagen
-new_image.save("fary_ampliada.jpg")
+new_image.save("casaup_ampliada.jpg")
 

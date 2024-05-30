@@ -307,6 +307,8 @@
 \@writefile{toc}{\contentsline {subsubsection}{Entrenamiento de los modelos}{26}{subsubsection*.33}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.4}VAE}{27}{section.3.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Creación del modelo}{27}{subsubsection*.34}\protected@file@percent }
+\abx@aux@cite{0}{pix2pix}
+\abx@aux@segm{0}{0}{pix2pix}
 \@writefile{toc}{\contentsline {subsubsection}{Entrenamiento del modelo}{28}{subsubsection*.35}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3.5}cGAN: Primera aproximación}{29}{section.3.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsubsection}{Creación de los modelos}{29}{subsubsection*.36}\protected@file@percent }
@@ -315,132 +317,137 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces Composición del discriminador. Los valores debajo de cada capa de convolución significan: c el número de filtros, k el tamaño del kernel y s el tamaño del stride. Fuente: Elaboración propia}}{31}{figure.caption.38}\protected@file@percent }
 \newlabel{fig:discriminator}{{3.11}{31}{Composición del discriminador. Los valores debajo de cada capa de convolución significan: c el número de filtros, k el tamaño del kernel y s el tamaño del stride. Fuente: Elaboración propia}{figure.caption.38}{}}
 \@writefile{toc}{\contentsline {subsubsection}{Entrenamiento de los modelos}{31}{subsubsection*.39}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.6}cGAN: (pix2pix)}{31}{section.3.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.7}EDSR cGAN}{31}{section.3.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Configuración de la memoria}{32}{chapter.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.12}{\ignorespaces Diagrama de flujo del cálculo del error para el generador. Fuente: Elaboración propia}}{32}{figure.caption.40}\protected@file@percent }
+\newlabel{fig:gangenloss}{{3.12}{32}{Diagrama de flujo del cálculo del error para el generador. Fuente: Elaboración propia}{figure.caption.40}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.13}{\ignorespaces Diagrama de flujo del cálculo del error para el discriminador. Fuente: Elaboración propia}}{33}{figure.caption.41}\protected@file@percent }
+\newlabel{fig:gandiscloss}{{3.13}{33}{Diagrama de flujo del cálculo del error para el discriminador. Fuente: Elaboración propia}{figure.caption.41}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.6}cGAN: (pix2pix)}{33}{section.3.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Creación de los modelos}{33}{subsubsection*.42}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.7}EDSR cGAN}{33}{section.3.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Configuración de la memoria}{34}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}¿Cómo empiezo a escribir la memoria?}{32}{section.4.1}\protected@file@percent }
-\newlabel{lst:starting-report}{{4.1}{33}{Primeras líneas del fichero \texttt {report.tex}}{lstlisting.4.1}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.1}{\ignorespaces Primeras líneas del fichero \texttt  {report.tex}}}{33}{lstlisting.4.1}\protected@file@percent }
-\newlabel{lst:starting-references}{{4.2}{33}{Inclusión del fichero de referencias bibliográficas \texttt {references.bib}}{lstlisting.4.2}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.2}{\ignorespaces Inclusión del fichero de referencias bibliográficas \texttt  {references.bib}}}{33}{lstlisting.4.2}\protected@file@percent }
-\newlabel{lst:starting-title-author-and-director}{{4.3}{34}{Configurando autor, título del proyecto y director}{lstlisting.4.3}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.3}{\ignorespaces Configurando autor, título del proyecto y director}}{34}{lstlisting.4.3}\protected@file@percent }
-\newlabel{lst:starting-include-chapters}{{4.4}{34}{Cómo incluir capítulos y apéndices}{lstlisting.4.4}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.4}{\ignorespaces Cómo incluir capítulos y apéndices}}{34}{lstlisting.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}¿Cómo estructurar la memoria?}{35}{section.4.2}\protected@file@percent }
-\newlabel{s:como-estructurar}{{4.2}{35}{¿Cómo estructurar la memoria?}{section.4.2}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Componentes de la plantilla}{37}{chapter.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}¿Cómo empiezo a escribir la memoria?}{34}{section.4.1}\protected@file@percent }
+\newlabel{lst:starting-report}{{4.1}{35}{Primeras líneas del fichero \texttt {report.tex}}{lstlisting.4.1}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.1}{\ignorespaces Primeras líneas del fichero \texttt  {report.tex}}}{35}{lstlisting.4.1}\protected@file@percent }
+\newlabel{lst:starting-references}{{4.2}{35}{Inclusión del fichero de referencias bibliográficas \texttt {references.bib}}{lstlisting.4.2}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.2}{\ignorespaces Inclusión del fichero de referencias bibliográficas \texttt  {references.bib}}}{35}{lstlisting.4.2}\protected@file@percent }
+\newlabel{lst:starting-title-author-and-director}{{4.3}{36}{Configurando autor, título del proyecto y director}{lstlisting.4.3}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.3}{\ignorespaces Configurando autor, título del proyecto y director}}{36}{lstlisting.4.3}\protected@file@percent }
+\newlabel{lst:starting-include-chapters}{{4.4}{36}{Cómo incluir capítulos y apéndices}{lstlisting.4.4}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {4.4}{\ignorespaces Cómo incluir capítulos y apéndices}}{36}{lstlisting.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}¿Cómo estructurar la memoria?}{37}{section.4.2}\protected@file@percent }
+\newlabel{s:como-estructurar}{{4.2}{37}{¿Cómo estructurar la memoria?}{section.4.2}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Componentes de la plantilla}{39}{chapter.5}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:componentes-de-la-plantilla}{{5}{37}{Componentes de la plantilla}{chapter.5}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Columnas}{37}{section.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Ecuaciones}{37}{section.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Modo en párrafo}{37}{subsection.5.2.1}\protected@file@percent }
-\newlabel{lst:in-line-equation}{{5.1}{37}{Ejemplo de inserción de fórmulas en linea}{lstlisting.5.1}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.1}{\ignorespaces Ejemplo de inserción de fórmulas en linea}}{37}{lstlisting.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Ecuaciones en bloque}{38}{subsection.5.2.2}\protected@file@percent }
-\@writefile{equ}{\contentsline {myequations}{\numberline {5.4}Ecuación canónica de la hipérbola}{39}{equation.5.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Elementos flotantes}{39}{section.5.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Opciones para los elementos flotantes de \hologoRobust {LaTeX}}}{40}{table.caption.40}\protected@file@percent }
-\newlabel{tab:floats-options}{{5.1}{40}{Opciones para los elementos flotantes de \hologo {LaTeX}}{table.caption.40}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Código fuente}{40}{subsection.5.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Código dentro del propio párrafo}{40}{subsubsection*.41}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Bloques de código}{40}{subsubsection*.42}\protected@file@percent }
-\@writefile{lol}{\contentsline {lstlisting}{sources/adding\textendash blocks.tex}{40}{lstlisting.5.-7}\protected@file@percent }
-\@writefile{lol}{\contentsline {lstlisting}{sources/adding\textendash blocks.tex}{41}{lstlisting.5.-8}\protected@file@percent }
-\@writefile{lol}{\contentsline {lstlisting}{sources/adding\textendash blocks.tex}{41}{lstlisting.5.-9}\protected@file@percent }
-\@writefile{lol}{\contentsline {lstlisting}{sources/adding\textendash blocks.tex}{41}{lstlisting.5.-10}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Código directamente desde fichero}{42}{subsubsection*.43}\protected@file@percent }
-\@writefile{lol}{\contentsline {lstlisting}{sources/snippets.py}{42}{lstlisting.5.-12}\protected@file@percent }
-\@writefile{lol}{\contentsline {lstlisting}{sources/snippets.py}{43}{lstlisting.5.-14}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{Etiquetando bloques de código}{43}{subsubsection*.44}\protected@file@percent }
-\@writefile{lol}{\contentsline {lstlisting}{sources/adding\textendash blocks.tex}{43}{lstlisting.5.-15}\protected@file@percent }
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.2}{\ignorespaces Función para determinar cuando una palabra \texttt  {w1} es anagrama de otra palabra \texttt  {w2}}}{43}{lstlisting.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}Figuras}{44}{subsection.5.3.2}\protected@file@percent }
-\newlabel{ch:figuras}{{5.3.2}{44}{Figuras}{subsection.5.3.2}{}}
-\newlabel{lst:figure-basic-insert}{{5.3}{44}{Inserción de una figura}{lstlisting.5.3}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.3}{\ignorespaces Inserción de una figura}}{44}{lstlisting.5.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces  Vault Boy approves that}}{44}{figure.caption.45}\protected@file@percent }
-\newlabel{fig:img-vault-boy}{{5.1}{44}{Vault Boy approves that}{figure.caption.45}{}}
-\@writefile{toc}{\contentsline {subsubsection}{Subfiguras}{45}{subsubsection*.46}\protected@file@percent }
-\newlabel{lst:subfigure-basic-insert}{{5.4}{45}{Inserción de varias subfiguras}{lstlisting.5.4}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.4}{\ignorespaces Inserción de varias subfiguras}}{45}{lstlisting.5.4}\protected@file@percent }
-\newlabel{fig:subfigure-1}{{5.2a}{46}{Vault Boy 1}{figure.caption.47}{}}
-\newlabel{sub@fig:subfigure-1}{{a}{46}{Vault Boy 1}{figure.caption.47}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Todos los Vault Boy}}{46}{figure.caption.47}\protected@file@percent }
-\newlabel{fig:subfigures}{{5.2}{46}{Todos los Vault Boy}{figure.caption.47}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}Tablas}{46}{subsection.5.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Enlaces de hipertexto}{47}{section.5.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.5}Fórmulas matemáticas}{47}{section.5.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.6}Glosario}{47}{section.5.6}\protected@file@percent }
-\newlabel{s:glosario}{{5.6}{47}{Glosario}{section.5.6}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.1}¿Cuándo y cómo especificar términos?}{47}{subsection.5.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.2}Definiendo los términos del glosario}{48}{subsection.5.6.2}\protected@file@percent }
-\newlabel{lst:std-glossary-entry}{{5.5}{48}{Código para crear una entrada en el glosario}{lstlisting.5.5}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.5}{\ignorespaces Código para crear una entrada en el glosario}}{48}{lstlisting.5.5}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Comandos para incluir términos del glosario en el texto de la memoria}}{48}{table.caption.48}\protected@file@percent }
-\newlabel{tab:glossary-commands}{{5.2}{48}{Comandos para incluir términos del glosario en el texto de la memoria}{table.caption.48}{}}
-\newlabel{lst:gls-longplural}{{5.6}{49}{Especificando el plural para un término del glosario}{lstlisting.5.6}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.6}{\ignorespaces Especificando el plural para un término del glosario}}{49}{lstlisting.5.6}\protected@file@percent }
-\newlabel{lst:new-acronym}{{5.7}{49}{Entrada genérica de una sigla o acrónimo en el glosario}{lstlisting.5.7}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.7}{\ignorespaces Entrada genérica de una sigla o acrónimo en el glosario}}{49}{lstlisting.5.7}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {5.3}{\ignorespaces Comandos específicos para controlar la presentación de acrónimos}}{50}{table.caption.49}\protected@file@percent }
-\newlabel{tab:acronym-commands}{{5.3}{50}{Comandos específicos para controlar la presentación de acrónimos}{table.caption.49}{}}
-\newlabel{fig:acronym-rpg}{{5.8}{50}{Entrada de \texttt {rpg} en \texttt {glossaries.tex}}{lstlisting.5.8}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.8}{\ignorespaces Entrada de \texttt  {rpg} en \texttt  {glossaries.tex}}}{50}{lstlisting.5.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.7}Notas}{51}{section.5.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.8}Referencias cruzadas}{51}{section.5.8}\protected@file@percent }
-\newlabel{s:crossref}{{5.8}{51}{Referencias cruzadas}{section.5.8}{}}
-\newlabel{lst:basic-references}{{5.9}{51}{Referenciando una figura y su página}{lstlisting.5.9}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.9}{\ignorespaces Referenciando una figura y su página}}{51}{lstlisting.5.9}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.9}Referencias bibliográficas}{52}{section.5.9}\protected@file@percent }
-\newlabel{s:referencias-bibliograficas}{{5.9}{52}{Referencias bibliográficas}{section.5.9}{}}
+\newlabel{ch:componentes-de-la-plantilla}{{5}{39}{Componentes de la plantilla}{chapter.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Columnas}{39}{section.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Ecuaciones}{39}{section.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Modo en párrafo}{39}{subsection.5.2.1}\protected@file@percent }
+\newlabel{lst:in-line-equation}{{5.1}{39}{Ejemplo de inserción de fórmulas en linea}{lstlisting.5.1}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.1}{\ignorespaces Ejemplo de inserción de fórmulas en linea}}{39}{lstlisting.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Ecuaciones en bloque}{40}{subsection.5.2.2}\protected@file@percent }
+\@writefile{equ}{\contentsline {myequations}{\numberline {5.4}Ecuación canónica de la hipérbola}{41}{equation.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Elementos flotantes}{41}{section.5.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces Opciones para los elementos flotantes de \hologoRobust {LaTeX}}}{42}{table.caption.43}\protected@file@percent }
+\newlabel{tab:floats-options}{{5.1}{42}{Opciones para los elementos flotantes de \hologo {LaTeX}}{table.caption.43}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Código fuente}{42}{subsection.5.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Código dentro del propio párrafo}{42}{subsubsection*.44}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Bloques de código}{42}{subsubsection*.45}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{sources/adding\textendash blocks.tex}{42}{lstlisting.5.-7}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{sources/adding\textendash blocks.tex}{43}{lstlisting.5.-8}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{sources/adding\textendash blocks.tex}{43}{lstlisting.5.-9}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{sources/adding\textendash blocks.tex}{43}{lstlisting.5.-10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Código directamente desde fichero}{44}{subsubsection*.46}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{sources/snippets.py}{44}{lstlisting.5.-12}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{sources/snippets.py}{45}{lstlisting.5.-14}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Etiquetando bloques de código}{45}{subsubsection*.47}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{sources/adding\textendash blocks.tex}{45}{lstlisting.5.-15}\protected@file@percent }
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.2}{\ignorespaces Función para determinar cuando una palabra \texttt  {w1} es anagrama de otra palabra \texttt  {w2}}}{45}{lstlisting.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}Figuras}{46}{subsection.5.3.2}\protected@file@percent }
+\newlabel{ch:figuras}{{5.3.2}{46}{Figuras}{subsection.5.3.2}{}}
+\newlabel{lst:figure-basic-insert}{{5.3}{46}{Inserción de una figura}{lstlisting.5.3}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.3}{\ignorespaces Inserción de una figura}}{46}{lstlisting.5.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces  Vault Boy approves that}}{46}{figure.caption.48}\protected@file@percent }
+\newlabel{fig:img-vault-boy}{{5.1}{46}{Vault Boy approves that}{figure.caption.48}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Subfiguras}{47}{subsubsection*.49}\protected@file@percent }
+\newlabel{lst:subfigure-basic-insert}{{5.4}{47}{Inserción de varias subfiguras}{lstlisting.5.4}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.4}{\ignorespaces Inserción de varias subfiguras}}{47}{lstlisting.5.4}\protected@file@percent }
+\newlabel{fig:subfigure-1}{{5.2a}{48}{Vault Boy 1}{figure.caption.50}{}}
+\newlabel{sub@fig:subfigure-1}{{a}{48}{Vault Boy 1}{figure.caption.50}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Todos los Vault Boy}}{48}{figure.caption.50}\protected@file@percent }
+\newlabel{fig:subfigures}{{5.2}{48}{Todos los Vault Boy}{figure.caption.50}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}Tablas}{48}{subsection.5.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Enlaces de hipertexto}{49}{section.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Fórmulas matemáticas}{49}{section.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.6}Glosario}{49}{section.5.6}\protected@file@percent }
+\newlabel{s:glosario}{{5.6}{49}{Glosario}{section.5.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.1}¿Cuándo y cómo especificar términos?}{49}{subsection.5.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6.2}Definiendo los términos del glosario}{50}{subsection.5.6.2}\protected@file@percent }
+\newlabel{lst:std-glossary-entry}{{5.5}{50}{Código para crear una entrada en el glosario}{lstlisting.5.5}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.5}{\ignorespaces Código para crear una entrada en el glosario}}{50}{lstlisting.5.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces Comandos para incluir términos del glosario en el texto de la memoria}}{50}{table.caption.51}\protected@file@percent }
+\newlabel{tab:glossary-commands}{{5.2}{50}{Comandos para incluir términos del glosario en el texto de la memoria}{table.caption.51}{}}
+\newlabel{lst:gls-longplural}{{5.6}{51}{Especificando el plural para un término del glosario}{lstlisting.5.6}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.6}{\ignorespaces Especificando el plural para un término del glosario}}{51}{lstlisting.5.6}\protected@file@percent }
+\newlabel{lst:new-acronym}{{5.7}{51}{Entrada genérica de una sigla o acrónimo en el glosario}{lstlisting.5.7}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.7}{\ignorespaces Entrada genérica de una sigla o acrónimo en el glosario}}{51}{lstlisting.5.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5.3}{\ignorespaces Comandos específicos para controlar la presentación de acrónimos}}{52}{table.caption.52}\protected@file@percent }
+\newlabel{tab:acronym-commands}{{5.3}{52}{Comandos específicos para controlar la presentación de acrónimos}{table.caption.52}{}}
+\newlabel{fig:acronym-rpg}{{5.8}{52}{Entrada de \texttt {rpg} en \texttt {glossaries.tex}}{lstlisting.5.8}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.8}{\ignorespaces Entrada de \texttt  {rpg} en \texttt  {glossaries.tex}}}{52}{lstlisting.5.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.7}Notas}{53}{section.5.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.8}Referencias cruzadas}{53}{section.5.8}\protected@file@percent }
+\newlabel{s:crossref}{{5.8}{53}{Referencias cruzadas}{section.5.8}{}}
+\newlabel{lst:basic-references}{{5.9}{53}{Referenciando una figura y su página}{lstlisting.5.9}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.9}{\ignorespaces Referenciando una figura y su página}}{53}{lstlisting.5.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.9}Referencias bibliográficas}{54}{section.5.9}\protected@file@percent }
+\newlabel{s:referencias-bibliograficas}{{5.9}{54}{Referencias bibliográficas}{section.5.9}{}}
 \abx@aux@cite{0}{mcculloch1943logical}
 \abx@aux@segm{0}{0}{mcculloch1943logical}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.9.1}¿Cómo creamos nuevas referencias?}{53}{subsection.5.9.1}\protected@file@percent }
-\newlabel{lst:base-bibref}{{5.10}{53}{Estructura general de una referencia}{lstlisting.5.10}{}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.10}{\ignorespaces Estructura general de una referencia}}{53}{lstlisting.5.10}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.9.2}¿De qué manera puedo citar las referencias?}{53}{subsection.5.9.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.10}Referencias cruzadas}{54}{section.5.10}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.11}Referencias a recursos externos}{54}{section.5.11}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Licencia}{55}{chapter.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.9.1}¿Cómo creamos nuevas referencias?}{55}{subsection.5.9.1}\protected@file@percent }
+\newlabel{lst:base-bibref}{{5.10}{55}{Estructura general de una referencia}{lstlisting.5.10}{}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {5.10}{\ignorespaces Estructura general de una referencia}}{55}{lstlisting.5.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.9.2}¿De qué manera puedo citar las referencias?}{55}{subsection.5.9.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.10}Referencias cruzadas}{56}{section.5.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.11}Referencias a recursos externos}{56}{section.5.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Licencia}{57}{chapter.6}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:licencia}{{6}{55}{Licencia}{chapter.6}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}Escuelas y títulos}{56}{appendix.Alph1}\protected@file@percent }
+\newlabel{ch:licencia}{{6}{57}{Licencia}{chapter.6}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Escuelas y títulos}{58}{appendix.Alph1}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:escuelas-y-titulos}{{A}{56}{Escuelas y títulos}{appendix.Alph1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.1}Escuelas}{56}{section.Alph1.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {A.1}{\ignorespaces  Relación entre el código de la plantilla y la escuela a la que se refiere}}{56}{table.caption.50}\protected@file@percent }
-\newlabel{tbl:schools}{{A.1}{56}{Relación entre el código de la plantilla y la escuela a la que se refiere}{table.caption.50}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.2}Titulaciones}{56}{section.Alph1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {A.2.1}E.T.S. de Ingeniería Agronómica, Alimentaria y de Biosistemas}{57}{subsection.Alph1.2.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces Logo de la ETSIAAB utilizado en la cubierta trasera de la memoria}}{57}{figure.caption.51}\protected@file@percent }
-\newlabel{fig:logo-etsiaab}{{A.1}{57}{Logo de la ETSIAAB utilizado en la cubierta trasera de la memoria}{figure.caption.51}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {A.2.2}E.T.S. de Ingeniería y Diseño Industrial}{57}{subsection.Alph1.2.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces Logo de la ETSIDI utilizado en la cubierta trasera de la memoria}}{58}{figure.caption.52}\protected@file@percent }
-\newlabel{fig:logo-etsidi}{{A.2}{58}{Logo de la ETSIDI utilizado en la cubierta trasera de la memoria}{figure.caption.52}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {A.2.3}E.T.S. de Ingeniería de Sistemas Informáticos}{58}{subsection.Alph1.2.3}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces Logo de la ETSISI utilizado en la cubierta trasera de la memoria}}{58}{figure.caption.53}\protected@file@percent }
-\newlabel{fig:logo-etsisi}{{A.3}{58}{Logo de la ETSISI utilizado en la cubierta trasera de la memoria}{figure.caption.53}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {B}¿Cómo ampliar la plantilla?}{59}{appendix.Alph2}\protected@file@percent }
+\newlabel{ch:escuelas-y-titulos}{{A}{58}{Escuelas y títulos}{appendix.Alph1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.1}Escuelas}{58}{section.Alph1.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {A.1}{\ignorespaces  Relación entre el código de la plantilla y la escuela a la que se refiere}}{58}{table.caption.53}\protected@file@percent }
+\newlabel{tbl:schools}{{A.1}{58}{Relación entre el código de la plantilla y la escuela a la que se refiere}{table.caption.53}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.2}Titulaciones}{58}{section.Alph1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2.1}E.T.S. de Ingeniería Agronómica, Alimentaria y de Biosistemas}{59}{subsection.Alph1.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces Logo de la ETSIAAB utilizado en la cubierta trasera de la memoria}}{59}{figure.caption.54}\protected@file@percent }
+\newlabel{fig:logo-etsiaab}{{A.1}{59}{Logo de la ETSIAAB utilizado en la cubierta trasera de la memoria}{figure.caption.54}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2.2}E.T.S. de Ingeniería y Diseño Industrial}{59}{subsection.Alph1.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces Logo de la ETSIDI utilizado en la cubierta trasera de la memoria}}{60}{figure.caption.55}\protected@file@percent }
+\newlabel{fig:logo-etsidi}{{A.2}{60}{Logo de la ETSIDI utilizado en la cubierta trasera de la memoria}{figure.caption.55}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2.3}E.T.S. de Ingeniería de Sistemas Informáticos}{60}{subsection.Alph1.2.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces Logo de la ETSISI utilizado en la cubierta trasera de la memoria}}{60}{figure.caption.56}\protected@file@percent }
+\newlabel{fig:logo-etsisi}{{A.3}{60}{Logo de la ETSISI utilizado en la cubierta trasera de la memoria}{figure.caption.56}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {B}¿Cómo ampliar la plantilla?}{61}{appendix.Alph2}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:ampliar}{{B}{59}{¿Cómo ampliar la plantilla?}{appendix.Alph2}{}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {C}Lista de paquetes incluidos}{60}{appendix.Alph3}\protected@file@percent }
+\newlabel{ch:ampliar}{{B}{61}{¿Cómo ampliar la plantilla?}{appendix.Alph2}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {C}Lista de paquetes incluidos}{62}{appendix.Alph3}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{ch:paquetes}{{C}{60}{Lista de paquetes incluidos}{appendix.Alph3}{}}
+\newlabel{ch:paquetes}{{C}{62}{Lista de paquetes incluidos}{appendix.Alph3}{}}
 \ttl@finishall
 \providecommand\totalcount@set[2]{}
-\totalcount@set{figure}{32}
+\totalcount@set{figure}{34}
 \totalcount@set{table}{4}
 \totalcount@set{lstlisting}{14}
 \totalcount@set{equation}{25}
-\abx@aux@read@bbl@mdfivesum{DD8B84998009B68DDA02AD8E245C4059}
+\abx@aux@read@bbl@mdfivesum{68718F3DD4F229341B1BEAF1BDA1DBEC}
 \abx@aux@defaultrefcontext{0}{medicalrestore2}{none/global//global/global/global}
 \abx@aux@defaultrefcontext{0}{medicalrestore1}{none/global//global/global/global}
 \abx@aux@defaultrefcontext{0}{astronomyrestore1}{none/global//global/global/global}
@@ -487,4 +494,5 @@
 \abx@aux@defaultrefcontext{0}{Agustsson_2017_CVPR_Workshops}{none/global//global/global/global}
 \abx@aux@defaultrefcontext{0}{8014884}{none/global//global/global/global}
 \abx@aux@defaultrefcontext{0}{blzq2023gist}{none/global//global/global/global}
-\gdef \@abspage@last{78}
+\abx@aux@defaultrefcontext{0}{pix2pix}{none/global//global/global/global}
+\gdef \@abspage@last{80}

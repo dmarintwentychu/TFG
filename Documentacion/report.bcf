@@ -2465,7 +2465,8 @@
     <bcf:citekey order="83" intorder="1">Wavelet</bcf:citekey>
     <bcf:citekey order="83" intorder="2">OWLNet</bcf:citekey>
     <bcf:citekey order="84" intorder="1">blzq2023gist</bcf:citekey>
-    <bcf:citekey order="85" intorder="1">mcculloch1943logical</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">pix2pix</bcf:citekey>
+    <bcf:citekey order="86" intorder="1">mcculloch1943logical</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
